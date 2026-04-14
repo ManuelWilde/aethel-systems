@@ -12,6 +12,7 @@ export default function HomePage() {
 
       <section className="hero">
         <div className="heroBadge">Structured Intelligence</div>
+
         <h1>
           Systems for
           <br />
@@ -19,6 +20,7 @@ export default function HomePage() {
           <br />
           and execution.
         </h1>
+
         <p className="heroText">
           AETHEL Systems builds high-level digital systems with clarity,
           structure, and strong architectural thinking.
@@ -32,6 +34,27 @@ export default function HomePage() {
             Explore the model
           </a>
         </div>
+      </section>
+
+      <section id="vision">
+        <h2>Vision</h2>
+        <p>
+          AETHEL develops high-level systems for structured intelligence,
+          knowledge architecture, and durable execution.
+        </p>
+      </section>
+
+      <section id="approach">
+        <h2>Approach</h2>
+        <p>
+          We focus on clarity, strong system design, and architectures that can
+          scale from thought to implementation.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact: manuelwilde77@gmail.com</p>
       </section>
     </main>
   );
